@@ -1,0 +1,3 @@
+recursive-include pretix_fsp_invoice/static *
+recursive-include pretix_fsp_invoice/templates *
+recursive-include pretix_fsp_invoice/locale *
