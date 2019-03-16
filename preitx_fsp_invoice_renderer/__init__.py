@@ -3,11 +3,11 @@ from django.utils.translation import ugettext_lazy
 
 
 class PluginApp(AppConfig):
-    name = 'pretix_fsp_invoice'
-    verbose_name = 'FSP Rechnungsplugin'
+    name = 'preitx_fsp_invoice_renderer'
+    verbose_name = 'FSP Rechnungserzeuger'
 
     class PretixPluginMeta:
-        name = ugettext_lazy('FSP Rechnungsplugin')
+        name = ugettext_lazy('FSP Rechnungserzeuger')
         author = 'Felix Gohla'
         description = ugettext_lazy('Das Plugin erlaubt es, Rechnungen zu erstellen, die gleiche Produkte zusammenfassen.')
         visible = True
@@ -17,4 +17,4 @@ class PluginApp(AppConfig):
         from . import signals  # NOQA
 
 
-default_app_config = 'pretix_fsp_invoice.PluginApp'
+default_app_config = 'preitx_fsp_invoice_renderer.PluginApp'

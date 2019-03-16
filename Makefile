@@ -1,5 +1,5 @@
 all: localecompile
-LNGS:=`find pretix_fsp_invoice/locale/ -mindepth 1 -maxdepth 1 -type d -printf "-l %f "`
+LNGS:=`find preitx_fsp_invoice_renderer/locale/ -mindepth 1 -maxdepth 1 -type d -printf "-l %f "`
 
 localecompile:
 	django-admin compilemessages

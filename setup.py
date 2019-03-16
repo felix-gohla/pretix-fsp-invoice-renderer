@@ -24,13 +24,13 @@ cmdclass = {
 
 
 setup(
-    name='pretix_fsp_invoice',
+    name='pretix-fsp-invoice-renderer',
     version='1.0.0',
     description='Das Plugin erlaubt es, Rechnungen zu erstellen, die gleiche Produkte zusammenfassen.',
     long_description=long_description,
-    url='https://gitlab.hpi.de/felix.gohla/pretix_fsp_invoice',
+    url='https://github.com/felix-gohla/pretix-fsp-invoice-renderer',
     author='Felix Gohla',
-    author_email='felix.gohla@gmail.com',
+    author_email='felix.gohla@student.hpi.de',
     license='Apache Software License',
 
     install_requires=[],
@@ -39,6 +39,6 @@ setup(
     cmdclass=cmdclass,
     entry_points="""
 [pretix.plugin]
-pretix_fsp_invoice=pretix_fsp_invoice:PretixPluginMeta
+preitx_fsp_invoice_renderer=preitx_fsp_invoice_renderer:PretixPluginMeta
 """,
 )

@@ -1,4 +1,4 @@
-FSP Rechnungsplugin
+FSP Rechnungserzeuger
 ==========================
 
 This is a plugin for `pretix`_. 
@@ -8,7 +8,7 @@ Development setup
 
 1. Make sure that you have a working `pretix development setup`_.
 
-2. Clone this repository, eg to ``local/pretix_fsp_invoice``.
+2. Clone this repository, eg to ``local/pretix-fsp-invoice-renderer``.
 
 3. Activate the virtual environment you use for pretix development.
 
